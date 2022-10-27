@@ -6,11 +6,11 @@
 #    By: hcherpre <hcherpre@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/27 00:33:07 by hugoo             #+#    #+#              #
-#    Updated: 2022/10/27 16:53:48 by hcherpre         ###   ########.fr        #
+#    Updated: 2022/10/27 17:53:00 by hcherpre         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME =	ClapTrap
+NAME =	ScavTrap
 
 SRCS =	main.cpp ClapTrap.cpp ScavTrap.cpp
 
