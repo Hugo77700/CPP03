@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hugoo <hugoo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: hcherpre <hcherpre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 00:34:04 by hugoo             #+#    #+#             */
-/*   Updated: 2022/10/27 01:25:23 by hugoo            ###   ########.fr       */
+/*   Updated: 2022/10/27 14:40:26 by hcherpre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,8 +66,8 @@ int main()
 		for (int i = 0; i < 3; i++)
 		{
 			hulk.takeDamage(5);
-			// if (hulk.getHit() <= 0)
-			// 	break ;
+			if (hulk.getHit() <= 0)
+				break ;
 		}
 	}
 	{
@@ -116,11 +116,11 @@ int main()
 		std::cout << std::endl;
 		std::cout << " *** Taking damage then repairing fully *** " << std::endl;
 		ClapTrap	hulk("Hulk");
-		// std::cout << "Current hit points: " << hulk.getHit() << std::endl;
+		std::cout << "Current hit points: " << hulk.getHit() << std::endl;
 		hulk.takeDamage(5);
-		// std::cout << "Current hit points: " << hulk.getHit() << std::endl;
+		std::cout << "Current hit points: " << hulk.getHit() << std::endl;
 		hulk.beRepaired(5);
-		// std::cout << "Current hit points: " << hulk.getHit() << std::endl;
+		std::cout << "Current hit points: " << hulk.getHit() << std::endl;
 	}
 	
 	return (0);
